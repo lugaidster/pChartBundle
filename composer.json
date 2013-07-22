@@ -1,0 +1,22 @@
+{
+    "name": "tokk/pchart",
+    "type": "symfony-bundle",
+    "description": "pChart lib with composer and few fixes",
+    "keywords": ["pChart", "symfony2", "bundle", "tokk"],
+    "homepage": "http://github.com/kamilkurczak/pChartBundle",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Tokk"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Tokk\\pChartBundle": ""
+        }
+    },
+
+    "target-dir": "Tokk/pChartBundle"
+}
