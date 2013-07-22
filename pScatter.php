@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Xlab\pChartBundle;
+namespace Tokk\pChartBundle;
 
  define("SCATTER_MISSING_X_SERIE"	, 190001);
  define("SCATTER_MISSING_Y_SERIE"	, 190002);

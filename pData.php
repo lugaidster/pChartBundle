@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Xlab\pChartBundle;
+namespace Tokk\pChartBundle;
 
  /* Axis configuration */
  define("AXIS_FORMAT_DEFAULT"		, 680001);

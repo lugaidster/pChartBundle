@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Xlab\pChartBundle;
+namespace Tokk\pChartBundle;
 
  define("BUBBLE_SHAPE_ROUND"		, 700001);
  define("BUBBLE_SHAPE_SQUARE"		, 700002);
