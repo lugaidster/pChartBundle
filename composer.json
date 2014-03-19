@@ -1,5 +1,5 @@
 {
-    "name": "lugaidste/pchart",
+    "name": "lugaidster/pchart",
     "type": "symfony-bundle",
     "description": "pChart lib with composer and few fixes",
     "keywords": ["pChart", "symfony2", "bundle", "tokk", "lugaidster"],
@@ -12,7 +12,7 @@
         },
         {
             "name": "Lugaidster"
-        },
+        }
     ],
 
     "autoload": {
