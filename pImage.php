@@ -12,7 +12,7 @@
 
      You can find the whole class documentation on the pChart web site.
  */
-namespace Tokk\pChartBundle;
+namespace Lugaidster\pChartBundle;
 
  /* The GD extension is mandatory */
  if (!extension_loaded('gd') && !extension_loaded('gd2'))

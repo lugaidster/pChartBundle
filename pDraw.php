@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Tokk\pChartBundle;
+namespace Lugaidster\pChartBundle;
 
  define("DIRECTION_VERTICAL"		, 690001);
  define("DIRECTION_HORIZONTAL"		, 690002);

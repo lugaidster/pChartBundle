@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Tokk\pChartBundle;
+namespace Lugaidster\pChartBundle;
 
  /* Class return codes */
  define("PIE_NO_ABSCISSA"	, 140001);

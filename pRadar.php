@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Tokk\pChartBundle;
+namespace Lugaidster\pChartBundle;
 
  define("SEGMENT_HEIGHT_AUTO"		, 690001);
 
@@ -47,6 +47,7 @@ namespace Tokk\pChartBundle;
      $TicksLength	= isset($Format["TicksLength"]) ? $Format["TicksLength"] : 2;
      $DrawAxisValues	= isset($Format["DrawAxisValues"]) ? $Format["DrawAxisValues"] : TRUE;
      $AxisBoxRounded	= isset($Format["AxisBoxRounded"]) ? $Format["AxisBoxRounded"] : TRUE;
+     $DrawAxisLines  = isset($Format["DrawAxisLines"]) ? $Format["DrawAxisLines"] : FALSE;
      $AxisFontName	= isset($Format["AxisFontName"]) ? $Format["AxisFontName"] : $this->pChartObject->FontName;
      $AxisFontSize	= isset($Format["AxisFontSize"]) ? $Format["AxisFontSize"] : $this->pChartObject->FontSize;
      $WriteValues	= isset($Format["WriteValues"]) ? $Format["WriteValues"] : FALSE;
@@ -282,10 +283,11 @@ namespace Tokk\pChartBundle;
        $EdgeX = cos(deg2rad($i+$AxisRotation)) * ($EdgeHeight+$TicksLength) + $CenterX;
        $EdgeY = sin(deg2rad($i+$AxisRotation)) * ($EdgeHeight+$TicksLength) + $CenterY;
 
-       if ($ID % $SkipLabels == 0)
-        { $Object->drawLine($CenterX,$CenterY,$EdgeX,$EdgeY,$Color); }
-       else
-        { $Object->drawLine($CenterX,$CenterY,$EdgeX,$EdgeY,$ColorDotted); }
+       if($DrawAxisLines)
+        if ($ID % $SkipLabels == 0)
+          { $Object->drawLine($CenterX,$CenterY,$EdgeX,$EdgeY,$Color); }
+        else
+          { $Object->drawLine($CenterX,$CenterY,$EdgeX,$EdgeY,$ColorDotted); }
 
        if ( $WriteLabels )
         {

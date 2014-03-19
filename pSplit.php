@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Tokk\pChartBundle;
+namespace Lugaidster\pChartBundle;
 
  define("TEXT_POS_TOP"		, 690001);
  define("TEXT_POS_RIGHT"	, 690002);

@@ -13,7 +13,7 @@
      You can find the whole class documentation on the pChart web site.
  */
 
-namespace Tokk\pChartBundle;
+namespace Lugaidster\pChartBundle;
 
  /* Axis configuration */
  define("AXIS_FORMAT_DEFAULT"		, 680001);
