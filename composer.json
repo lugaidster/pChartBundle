@@ -1,22 +1,25 @@
 {
-    "name": "tokk/pchart",
+    "name": "lugaidste/pchart",
     "type": "symfony-bundle",
     "description": "pChart lib with composer and few fixes",
-    "keywords": ["pChart", "symfony2", "bundle", "tokk"],
-    "homepage": "http://github.com/kamilkurczak/pChartBundle",
+    "keywords": ["pChart", "symfony2", "bundle", "tokk", "lugaidster"],
+    "homepage": "http://github.com/lugaidster/pChartBundle",
     "license": "MIT",
 
     "authors": [
         {
             "name": "Tokk"
-        }
+        },
+        {
+            "name": "Lugaidster"
+        },
     ],
 
     "autoload": {
         "psr-0": {
-            "Tokk\\pChartBundle": ""
+            "Lugaidster\\pChartBundle": ""
         }
     },
 
-    "target-dir": "Tokk/pChartBundle"
+    "target-dir": "lugaidster/pChartBundle"
 }
