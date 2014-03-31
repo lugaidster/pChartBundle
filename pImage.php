@@ -41,7 +41,7 @@ namespace Lugaidster\pChartBundle;
    var $Antialias	= TRUE;				// Turn antialias on or off
    var $AntialiasQuality  = 0;				// Quality of the antialiasing implementation (0-1)
    var $Mask		= "";				// Already drawn pixels mask (Filled circle implementation)
-   var $TransparentBackground = FALSE;			// Just to know if we need to flush the alpha channels when rendering
+   var $TransparentBackground = TRUE;			// Just to know if we need to flush the alpha channels when rendering
 
    /* Graph area settings */
    var $GraphAreaX1	= NULL;				// Graph area X origin

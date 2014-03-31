@@ -58,9 +58,9 @@ namespace Lugaidster\pChartBundle;
   {
    var $Data;
 
-   var $Palette = array("0"=>array("R"=>188,"G"=>224,"B"=>46,"Alpha"=>100),
-                        "1"=>array("R"=>224,"G"=>100,"B"=>46,"Alpha"=>100),
-                        "2"=>array("R"=>224,"G"=>214,"B"=>46,"Alpha"=>100),
+   var $Palette = array("0"=>array("R"=>0,"G"=>206,"B"=>207,"Alpha"=>255),
+                        "1"=>array("R"=>0,"G"=>130,"B"=>161,"Alpha"=>255),
+                        "2"=>array("R"=>21,"G"=>81,"B"=>107,"Alpha"=>255),
                         "3"=>array("R"=>46,"G"=>151,"B"=>224,"Alpha"=>100),
                         "4"=>array("R"=>176,"G"=>46,"B"=>224,"Alpha"=>100),
                         "5"=>array("R"=>224,"G"=>46,"B"=>117,"Alpha"=>100),

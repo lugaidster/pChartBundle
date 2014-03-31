@@ -69,7 +69,7 @@ namespace Lugaidster\pChartBundle;
      $LabelAlpha	= isset($Format["LabelAlpha"]) ? $Format["LabelAlpha"] : 100;
      $WriteValues	= isset($Format["WriteValues"]) ? $Format["WriteValues"] : NULL;
      $ValuePosition	= isset($Format["ValuePosition"]) ? $Format["ValuePosition"] : PIE_VALUE_OUTSIDE;
-     $ValuePadding	= isset($Format["ValuePadding"]) ? $Format["ValuePadding"] : 15;
+     $ValuePadding	= isset($Format["ValuePadding"]) ? $Format["ValuePadding"] : 20;
      $ValueSuffix	= isset($Format["ValueSuffix"]) ? $Format["ValueSuffix"] : "";
      $ValueR		= isset($Format["ValueR"]) ? $Format["ValueR"] : 255;
      $ValueG		= isset($Format["ValueG"]) ? $Format["ValueG"] : 255;
